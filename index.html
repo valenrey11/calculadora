@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="titulo">Calculadora</h1>
+    </header>
+    <section class="main">
+      <div class="operation">
+        <input class="input" type="number" id="first" />
+        <select class="input" id="signo">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+          <option value="^">^</option>
+        </select>
+        <input class="input" type="number" id="second" />
+      </div>
+      <div class="section">
+        <div class="btn-container">
+          <button class="button">Calcular</button>
+        </div>
+        <button class="reset">Reset</button>
+        <div class="result-container"><p class="result">0</p></div>
+      </div>
+    </section>
+  </body>
+</html>

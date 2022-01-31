@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 400;
+}
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: steelblue;
+  text-align: center;
+}
+.titulo {
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 55px;
+  font-weight: 700;
+}
+.main {
+  background-color: rgb(123, 211, 189);
+  height: calc(100vh - 90px);
+  padding: 30px 0;
+}
+.operation {
+  padding: 40px 90px;
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 766px) {
+  .operation {
+    padding: 40px 90px;
+    display: flex;
+  }
+}
+.input {
+  height: 50px;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+}
+select.input {
+  padding: 5px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 25px;
+  width: 80px;
+}
+.btn-container {
+  padding: 10px 90px;
+}
+.button {
+  width: 100%;
+  background-color: teal;
+  border-radius: 4px;
+  border: none;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 400;
+  box-shadow: 4px 3px gray;
+}
+@media (min-width: 766px) {
+  .button {
+    height: 100%;
+  }
+  .button:hover {
+    background-color: rgb(57, 120, 202);
+    box-shadow: 3px 3px;
+  }
+}
+.reset {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  width: 100px;
+  background-color: rgb(231, 230, 125);
+  border-radius: 4px;
+  border: none;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 400;
+  box-shadow: 4px 3px gray;
+}
+@media (min-width: 766px) {
+  .reset:hover {
+    background-color: rgb(233, 185, 52);
+    box-shadow: 3px 3px;
+  }
+}
+.result-container {
+  text-align: center;
+  padding: 40px 90px 0;
+}
+@media (min-width: 766px) {
+  .result-container {
+    padding: 10px 90px;
+  }
+}
+.result {
+  margin: 0;
+  border-radius: 4px;
+  background-color: rgb(209, 156, 178);
+}
+@media (min-width: 766px) {
+  .result {
+    width: 170px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 766px) {
+  .section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
